@@ -1,16 +1,8 @@
 # Django Student API
 
-A simple student management API built during today's Django REST Framework class.
-
-## What We Covered
-
-- Creating a Django project and application
-- Defining a `Student` model
-- Creating a model serializer
-- Building function-based API views
-- Adding URL routes
-- Creating database migrations
-- Supporting `GET`, `POST`, `PUT`, and `DELETE` requests
+A student management API built with Django and Django REST Framework. The
+project provides CRUD operations for student records and uses MySQL for
+persistent data storage.
 
 ## Student Model
 
@@ -41,6 +33,8 @@ Example request body:
 ```
 
 ## Run Locally
+
+Configure the MySQL database connection in `djangoapi/settings.py`, then run:
 
 ```bash
 python manage.py migrate
